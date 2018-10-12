@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Validacion formularios</title>
+  </head>
+  <body>
+    <form name="formContacto">
+      <fieldset>
+        <legend>Validacion de Formularios</legend>
+        <p>
+          <label for="nombres">Nombres</label>
+          <input id="nombres"type="text" placeholder="Ingrese sus nombres" size="50px" required>
+        </p>
+        <p>
+          <label for="apellidos">Apellidos</label>
+          <input id="apellidos" type="text" placeholder="Ingrese sus apellidos" size="50px" required>
+        </p>
+        <p>
+          <label for="email">Correo electronico</label>
+          <input id="email" type="email" placeholder="Ingrese su correo" size="50px" required>
+        </p>
+        <p>
+          <label for="edad">Edad</label>
+          <input id="edad" type="number">
+        </p>
+        <input type="submit" value="Enviar">
+      </fieldset>
+    </form>
+
+  </body>
+</html>

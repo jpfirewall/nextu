@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario y Atributos</title>
+  </head>
+  <body>
+    <form autocomplete="on" name="Mi primer Formulario">
+      <fieldset>
+        <legend></legend>
+        <h1>Registro en nuestra tienda</h1>
+        <label for="Nombre">Nombre de usuario</label><br/>
+        <input type="text" placeholder="Ej. Luis" required autofocus><br/>
+        <p><label for="email">Email</label><br/>
+        <input type="email" placeholder="Ej. luis@gmail.com" required></p>
+        <p><label for="edad">Edad</label><br/>
+        <input type="number" placeholder="Ej. 21" required><br/>
+      </p>
+      <p>
+        <label for="nacimiento">Fecha de nacimiento</label>
+        <input type="date" name="nacimiento" value="">
+      </p>
+      <p><label for="">Genero</label>
+        <input type="radio" name="genero" id="varon">
+        <label for="varon">Varon</label>
+        <input type="radio" name="genero" id="mujer">
+        <label for="mujer">Mujer</label>
+      </p>
+      <p>  Recomendado por:<br/>
+        <select class="" name="">
+          <option value="">Google</option>
+          <option value="">Yahoo</option>
+          <option value="">Microsoft</option>
+        </select>
+      </p>
+      <p><label for="">Comentarios</label><br/>
+        <textarea name="name" rows="8" cols="80"></textarea>
+      </p>
+      <p><label for="">Acepto terminos y condiciones</label><br/>
+        <input type="checkbox" >
+      </p>
+      <input type="submit" name="" value="Registrar">
+      </fieldset>
+    </form>
+  </body>
+</html>

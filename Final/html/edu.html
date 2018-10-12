@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable:no">
+    <title></title>
+    <header>
+      <h1><svg>
+        <image xlink:href="../img/logoJP.svg" width="50px" height="50px" x="10px" y="100px"></image>
+      </svg>Hoja de Vida</h1>
+      <hr>
+    </header>
+  </head>
+  <body>
+    <h2>Javier Antonio Pasos</h2>
+    <h3>Fecha de Nacimiento: Nicaragua, 14 de Junio de 1977</h3>
+     <nav>
+       <a href="../index.html">Inicio</a> | <a href="edu.html">Educacion</a> | <a href="exp.html">Experiencia</a>
+     </nav>
+     <section>
+       <h2>Educacion</h2>
+       <table border="1">
+         <thead>
+         <tr>
+           <th>Año</th>
+           <th>Institucion</th>
+           <th>Lugar</th>
+           <th>Culmino</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>1984-1989</td>
+           <td>Vitalia Madrigal Araya</td>
+           <td>Costa Rica</td>
+           <td>Si</td>
+         </tr>
+         <tr>
+           <td>1990-1995</td>
+           <td>Instituto Rosendo Lopez</td>
+           <td>Rivas</td>
+           <td>Si</td>
+         </tr>
+       </tbody>
+       <tfoot>
+         <tr>
+           <td>1996-2003</td>
+           <td>Universidad Nacional de Ingenieria</td>
+           <td>Managua</td>
+           <td>Si</td>
+         </tr>
+       </tfoot>
+       </table>
+
+       <form autocomplete="on" name="Educacion">
+
+           <legend></legend>
+           <h3>Agregar Estudios</h3>
+           <p>Año:<select class="" name="">
+             <option value="">2000</option>
+             <option value="">2005</option>
+             <option value="">2010</option>
+           </select>
+           </p>
+           <label for="Nombre">Institucion:</label>
+           <input type="text" placeholder="Ej. Escuela Vitalia" required autofocus><br/>
+           <p><label for="">Lugar:</label>
+             <textarea name="lugar" rows="2" cols="30"></textarea required><br/>
+           </p>
+           <input type="submit" name="" value="Enviar"><br/>
+
+
+       </form>
+     </section>
+     <footer><a href="mailto:jpasos@outlook.com?subject=Curriculum">email</a></footer>
+  </body>
+</html>
