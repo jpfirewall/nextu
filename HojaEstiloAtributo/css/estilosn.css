@@ -24,6 +24,14 @@ h1.titulo
   padding: 10px;
   align-content: center;
 }
+a[href]
+{
+  color: red;
+}
+img[src$='.jpg']
+{
+  border-radius: 50px
+}
 footer
 {
   padding-top: 10px;
